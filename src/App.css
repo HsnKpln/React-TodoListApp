@@ -50,3 +50,6 @@
 .todo button{
   padding: 5px 5px;
 }
+.complated li{
+  text-decoration: line-through;
+}
