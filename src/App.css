@@ -44,12 +44,70 @@
   list-style-type: none;
 }
 .todo li{
-  border: 1px solid black;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 5px;
   padding: 5px 30px;
+  margin-bottom: 5px;
 }
-.todo button{
-  padding: 5px 5px;
+.todo li input{
+  background-color: rgb(105, 205, 250);
+  color: rgb(32, 32, 32);
+  border: none;
 }
-.complated li{
+.complated li input{
   text-decoration: line-through;
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../public/font/fontello.eot?19278443');
+  src: url('../public/font/fontello.eot?19278443#iefix') format('embedded-opentype'),
+       url('../public/font/fontello.woff2?19278443') format('woff2'),
+       url('../public/font/fontello.woff?19278443') format('woff'),
+       url('../public/font/fontello.ttf?19278443') format('truetype'),
+       url('../public/font/fontello.svg?19278443#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  
+
+}
+
+.icon-delete:before { content: '\e800'; } /* '' */
+.icon-tick:before { content: '\e801'; } /* '' */
+
+.icon-tick{
+  font-size: 25px;
+  color: black;
+}
+.icon-delete{
+  font-size: 25px;
+  color: black;
+}
+
+
+.icon-tick:hover{
+  font-size: 25px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.icon-delete:hover{
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
 }

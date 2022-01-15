@@ -52,7 +52,7 @@ const getLocalTodos = ()=>{
 
 
   return (
-    <div className="App">
+    <div className="App container">
       <header>
         <h1>MY TODO LİST</h1>
       </header>

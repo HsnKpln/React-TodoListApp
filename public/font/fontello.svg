@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="delete" unicode="&#xe800;" d="M608 132c61 0 110 48 112 108l13 396h60c9 0 16 7 16 16s-7 16-16 16h-168v36c0 35-29 64-64 64h-122c-35 0-64-29-64-64v-36h-169c-8 0-16-8-16-16s8-16 16-16h60l13-396c3-60 51-108 112-108z m-201 572c0 17 15 32 32 32h122c17 0 32-15 32-32v-36h-186z m-95-462l-13 394h403l-14-394c-2-43-37-78-80-78h-216c-43 0-78 34-80 78z m188 25c9 0 16 7 16 16v239c0 9-7 16-16 16s-16-7-16-16v-239c0-9 7-16 16-16z m-96 0c9 0 16 7 16 16v239c0 9-7 16-16 16-9 0-16-7-16-16v-239c0-9 7-16 16-16z m192 0c9 0 16 7 16 16v239c0 9-7 16-16 16-9 0-16-7-16-16v-239c0-9 7-16 16-16z" horiz-adv-x="1000" />
+
+<glyph glyph-name="tick" unicode="&#xe801;" d="M409 504c-13 13-33 13-46 0-12-12-13-31-1-44l96-104c6-7 15-10 24-10h0c9 0 17 3 23 10l244 244c13 12 13 32 0 45s-33 13-46 0l-220-221z m91-321c148 0 267 120 267 267 0 18-14 32-32 32s-32-14-32-32c0-112-91-203-203-203s-203 91-203 203 91 203 203 203c18 0 32 15 32 32 0 18-14 32-32 32-148 0-267-120-267-267 0-148 119-267 267-267z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,75 @@
+<div className="row justify-content-center">
+    <div className="col-12">
+        <div className="card shadow">
+            <header>
+                <h1>MY TODO LİST</h1>
+            </header>
+            <Form inputText={inputText} setInputText={setInputText} todos={todos} setTodos={setTodos} status={status}
+                setStatus={setStatus} />
+            <TodoList todos={todos} setTodos={setTodos} filteredTodos={filteredTodos} />
+        </div>
+    </div>
+</div>
+
+
+<div className="container">
+    <div className="row justify-content-center">
+        <div className="col-12">
+            <div className="card shadow">
+                <div className="card-header bg-dark text-light"> Ürün Ekle </div>
+                <div className="card-body">
+                    <form id="fEkle">
+                        Ad: <input type="text" className="form-control" id='ad' /> <br />
+                        Adet: <input type="text" className="form-control" id='adet' /> <br />
+                        <button type="submit" className='btn btn-info'>Ekle</button>
+                        <div className="search">
+                            <input type="text" className="form-control" onChange={inputTextHandler} value={inputText} />
+                            <button onClick={submitHandler} className="btn btn-info">Ekle</button>
+                        </div>
+                        <div className="select">
+                            <select name="todos" className="form-control" onChange={statusHandler}>
+                                <option value="all">All</option>
+                                <option value="complated">Complated</option>
+                                <option value="uncomplated">Uncomplated</option>
+                            </select>
+                        </div>
+                        <div className="alert-wrapper">
+                            {alertWarning ? <div className="alert-warning">
+                                <div>Bu alan boş geçilemez..</div>
+                            </div> : ""}
+                            {alertSuccess ? <div className="alert-success">
+                                <div>Ekleme başarılı</div>
+                            </div> : ""}
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<form>
+    <div className="search">
+        <input type="text" onChange={inputTextHandler} value={inputText} />
+        <button onClick={submitHandler}>Ekle</button>
+    </div>
+    <div className="select">
+        <select name="todos" onChange={statusHandler}>
+            <option value="all">All</option>
+            <option value="complated">Complated</option>
+            <option value="uncomplated">Uncomplated</option>
+        </select>
+    </div>
+    <div className="alert-wrapper">
+        {alertWarning ? <div className="alert-warning">
+            <div>Bu alan boş geçilemez..</div>
+        </div> : ""}
+        {alertSuccess ? <div className="alert-success">
+            <div>Ekleme başarılı</div>
+        </div> : ""}
+    </div>
+</form>
